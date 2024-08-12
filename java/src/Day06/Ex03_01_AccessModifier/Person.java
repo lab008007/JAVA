@@ -9,7 +9,7 @@ public class Person {
 	private int weight;
 	
 	//생성자
-	public Person{
+	public Person(){
 		this("이름없음", 1, 0, 0);
 	}
 	public Person(String name, int age, int height, int weight) {

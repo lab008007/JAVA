@@ -3,7 +3,7 @@ package Day06.Ex06_Final;
 public class SuperClass {
 
 	// final 메소드
-	public final void finalMethod() {\
+	public final void finalMethod() {
 		System.out.println("fina 메소드 입니다.");
 	}
 	
