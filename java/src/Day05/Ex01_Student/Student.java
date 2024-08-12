@@ -6,14 +6,14 @@ public class Student {
 	// 학생의 행동 : 공부하기 성적 평균 구하기
 	
 	// 변수
-	public String name;
-	public int age;
-	public String stdNo;
-	public String major;
+	String name;
+	int age;
+	String stdNo;
+	String major;
 	// 생성자
 	public Student() {
-		this("이름없음", "000000", "없음");
-	}
+		this("이름없음", 1, "000000", "없음");  
+	}  
 	public Student(String name, int age, String stdNo, String major) {
 		this.name = name;
 		this.age = age;

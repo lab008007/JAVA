@@ -5,12 +5,11 @@ public class StudentTest {
 	public static void main(String[] args) {
 		//Student 객체 생성
 		Student student = new Student();
-		
 		student.name = "김도현";
 		student.age = 20;
 		student.stdNo = "T10001";
 		student.major = "전기전자과";
-		int scores[] = {100, 80, 90, 75};
+		int scores[] = {100, 80, 90, 75}; //학생1의 성적
 		
 		System.out.println(":::::학생1:::::");
 		System.out.println("학생1 - 이름 : " student.name);
