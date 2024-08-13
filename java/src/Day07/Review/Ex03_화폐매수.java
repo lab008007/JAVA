@@ -73,13 +73,13 @@ public class Ex03_화폐매수 {
 		System.out.println("1 : " + count);     */
 		
 		
-		int money = 5000;
+		int money = 50000;
 		boolean sw = true;
 		
 		while(money >= 1) {
 			//화폐매수 계산
 			int count = input / money;
-			System.out.println(money + " : " + count);
+			System.out.println(money + "\t\t : " + count + "개");
 			input = input % money;
 			//화폐단위 변환
 			if( sw ) {
