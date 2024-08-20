@@ -1,5 +1,7 @@
 package Day01;
 
+import java.util.Scanner;
+
 // 1. [Window]
 // 2. [Preferences] (설정)
 // 3. [Java] [Editor] [Template]

@@ -48,8 +48,8 @@ public class Ex02_CalculatorTest {
 		// - Y : 지정한 크기만큼 소수점 아래 자리수를 표현(반올림)
 		//*(리터럴) : %d (정수), %f(실수), %s(문자열)
 		int arr[] = {10,20,30,40,50};
-		System.out.println("합계 : " calculator.sum(arr));
-		System.out.println("평균 : " calculator.avg(arr));
+		System.out.println("합계 : " + calculator.sum(arr));
+		System.out.println("평균 : " + calculator.avg(arr));
 		sc.close();
 	}
 	

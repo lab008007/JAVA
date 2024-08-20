@@ -30,7 +30,9 @@ public class Ex08_Enum {
 		System.out.println();
 		
 		Rainbow G = Rainbow.valueOf("PURPLE");
-		System.out.printtln("G : " + G);
+		System.out.println("G : " + G);
+		
+		int index = G.ordinal();
 		System.out.println("PURPLE 의 index : " + index);
 	}
 	

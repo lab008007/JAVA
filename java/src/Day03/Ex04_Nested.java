@@ -13,7 +13,7 @@ public class Ex04_Nested {
 		int year = sc.nextInt();
 		
 		System.out.println("점수 : ");
-		int score = sc.nextInt()
+		int score = sc.nextInt();
 		
 		// 4학년
 		if( year == 4 ) {
@@ -23,7 +23,7 @@ public class Ex04_Nested {
 			}
 			else {
 				System.out.println("불합격!");
-			
+			}
 		} 
 		
 		else {

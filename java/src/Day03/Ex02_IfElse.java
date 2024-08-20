@@ -16,8 +16,7 @@ public class Ex02_IfElse {
 		
 		else 
 			System.out.println("짝수 입니다.");
-		}
-	
+		
 		sc.close();
 		
 	}

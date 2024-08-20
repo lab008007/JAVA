@@ -12,7 +12,7 @@ public class Ex09_WhileSum {
 		//        ? + 2
 		while( a <= 1000 ) {
 			sum = sum + a;
-			a = a + 1
+			a = a + 1;
 			// a++;
 			// sum = sum + a++;
 			// sum += a++;

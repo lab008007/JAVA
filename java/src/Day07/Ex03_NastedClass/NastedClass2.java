@@ -15,6 +15,7 @@ public class NastedClass2 {
 		y.value = 10;
 		System.out.println("Y 객체의 변수 : " + y.value);
 		y.method1();
+		y.method2();
 		
 		//static 이너 클래스 객체 생성
 		X.Z z = new X.Z();

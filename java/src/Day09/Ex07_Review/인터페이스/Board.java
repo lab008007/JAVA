@@ -15,8 +15,13 @@ public class Board {
 	public Board() {
 		this("제목없음", "작성자 없음", "내용없음");
 	}
-	
 	//매개변수가 있는 생성자
+	public Board(String title, String writer, String content) {
+		this.title = title;
+		this.writer = writer;
+		this.content = content;
+	}
+	//전체 매개변수가 있는 생성자
 	public Board(int no, String title, String writer, String content, String regDate, String updDate) {
 		this.no = no;
 		this.title = title;
@@ -24,12 +29,7 @@ public class Board {
 		this.content = content;
 		this.regDate = regDate;
 		this.updDate = updDate;
-	}
 	
-	public Board(String title, String writer, String content) {
-		this.title = title;
-		this.writer = writer;
-		this.content = content;
 	}
 	// getter,setter
 	public int getNo() {
@@ -72,7 +72,7 @@ public class Board {
 	// toString()
 	@Override
 	public String toString() {
-		return "Main [no=" + no + ", title=" + title + ", writer=" + writer + ", content=" + content + ", regDate="
+		return "Board [no=" + no + ", title=" + title + ", writer=" + writer + ", content=" + content + ", regDate="
 				+ regDate + ", updDate=" + updDate + "]";
 	}
 		

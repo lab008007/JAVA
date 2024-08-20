@@ -12,54 +12,53 @@ package Day05;
  */
 
 public class Calculator {
-
+	
+	//덧셈
 	public int plus(int a, int b) {
 		int result = a + b;
 		return result;
 	}
 	
+	//뺄셈
 	public int minus(int a, int b) {
 		int result = a - b;
 		return result;
 	}
 	
+	//곱셈
 	public double multiple(double a, double b) {
 		double result = a * b;
 		return result;
 	}
 	
+	//나눗셈
 	public double divide(double a, double b) {
 		double result = a / b;
 		return result;
 	}
 	
+	//나머지
 	public double remain(double a, double b) {
 		double result = a % b;
 		return result;
 	}
 	
+	//합계
 	public int sum(int[] arr) {
 		int sum = 0;
-		for (int = 0; < arr.length; i++) {
+		for (int i = 0; i < arr.length; i++) {
 			// sum = sum + arr[i};
 			sum += arr[i];
 		}
 		return sum;
 	}
 	
-	public double average(int[] arr) {
-		int sum = 0;
-		for (int = 0; < arr.length; i++) {
-			// sum = sum + arr[i};
-			sum += arr[i];
-		}
-		// int sum = sum(arr);
-		double average = 0.0;
-		average = (double) sum / arr.length;
-		return average;
-	}
-	
-	
+	//평균
+	public double avg(int[] arr) {
+		int sum = sum(arr);
+		double avg = 0.0;
+		avg = (double) sum / arr.length;
+		return avg;
 	}
 	
 }
