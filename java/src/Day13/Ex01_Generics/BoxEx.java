@@ -36,6 +36,7 @@ public class BoxEx {
 		}
 		System.out.println();
 		
+		Box<?> aBox = new Box<>();
 	}
 	
 }
